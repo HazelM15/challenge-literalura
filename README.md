@@ -93,9 +93,9 @@ La clase *Principal* maneja la interaccion con el usuario a través de un menú 
    - Tener PostgreSQL instalado y funcionando.
 
 2. **Archivo application.properties:**
-   - Editar el archivo src/main/resources/application.properties con las credenciales de la base de datos.
+   - Editar el archivo src/main/resources/application.properties con las credenciales.
    ```sh
-   spring.datasource.url=jdbc:postgresql://localhost:5432/nombre_de_tu_base_de_datos
+   spring.datasource.url=jdbc:postgresql://localhost:5432/
    spring.datasource.username=tu_usuario
    spring.datasource.password=tu_contraseña
    spring.jpa.hibernate.ddl-auto=update
